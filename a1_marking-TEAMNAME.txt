@@ -1,0 +1,32 @@
+CSCC01 Assignment 1 Marking Scheme
+===================================
+
+Group Name: 
+
+# REST API Correctness (56%)
+45 / 45 - Passed test cases in automated testing file
+
+# GIT FLOW (4%)
+1 / 3 - Correct git flow
+      1 / 1 - Has a develop branch
+      0 / 1 - Created feature branches
+      0 / 1 - Merged feature branches in via PR
+
+# CI/CD (21%)
+1 / 1   - AppTest.java is present
+1 / 1   - Tests are functioning, and produces verified test cases
+1 / 1   - Github workflow file present
+14 / 14 - Minimum of 14 properly written test cases in AppTest.java
+
+# DAGGER (19%)
+1.5 / 2 - Correct Inject statements
+1 / 1 - Correct initialization in App.java
+1 / 1 - Only has one context
+2 / 2 - Having proper module classes
+0 / 3 - Proper provides for provideDriver (check exists, annotation, and return)
+3 / 3 - Proper provides for provide neo4jDAO (check exists, annotation, and return)
+3 / 3 - Proper provides for server (check exists, annotation, and return)
+
+
+# Total
+74.5 / 80
